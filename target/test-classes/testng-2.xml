@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trigonometric suite">
+    <test name="Trigonometric functions">
+        <packages>
+            <package name="com.epam.cdp.testNG"/>
+        </packages>
+    </test>
+</suite>

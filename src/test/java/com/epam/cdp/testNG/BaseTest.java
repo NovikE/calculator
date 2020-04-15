@@ -14,7 +14,6 @@ public class BaseTest {
     }
 
     @AfterTest
-    public void tearDown(){
-        calculator = null;
+    public void tearDown(){ calculator = null;
     }
 }

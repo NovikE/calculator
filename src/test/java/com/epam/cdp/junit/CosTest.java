@@ -8,6 +8,6 @@ public class CosTest extends BaseTest {
     @Test
     public void cosDouble(){
         double result = calculator.cos(60);
-        Assert.assertTrue("Invalid test!", 0.5 == result);
+        Assert.assertTrue("Invalid result of cos-function!", 0.5 == result);
     }
 }
